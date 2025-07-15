@@ -15,9 +15,9 @@ variable "prefix" {
 }
 
 variable "environment" {
-  type               = string 
-  description        = "Environment of instance"
-  default            = "Test"
+  type        = string
+  description = "Environment of instance"
+  default     = "Test"
 }
 
 variable "cidr_block" {
